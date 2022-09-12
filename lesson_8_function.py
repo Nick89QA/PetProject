@@ -28,12 +28,20 @@ def hi(name="Alex"):  # задаем параметр аргументу
 
 hi("Alex")
 # еще одна реализация функции
-surname = "Nick" # обьявляем переменную и работаем с ней в функции
+surname = "Nick"  # обьявляем переменную и работаем с ней в функции
 
 
 def sur(surname):
-
-
     print("Hi " + surname)
 
+
 sur(surname)
+
+nickName = "Nick"
+
+
+def show_age(nickName, age):
+    print("Привет " + nickName + " мне " + age + " лет ")
+
+
+show_age(nickName, "30")
